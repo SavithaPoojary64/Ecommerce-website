@@ -1,0 +1,63 @@
+
+  
+  .shopcategory-banner {
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+  }
+  
+  .shopcategory-indexSort {
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .shopcategory-sort {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #8888;
+  }
+  
+  .shopcategory-indexSort p span {
+    font-weight: 600;
+  }
+  
+  .shopcategory-products {
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+  }
+  
+  .shopcategory-loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto; /* Adjust margin as needed */
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #dedede;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .shopcategory-loadmore button {
+    /* Additional button styles if needed */
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shopcategory-loadmore button:hover {
+    background-color: #ccc; /* Change color on hover as desired */
+  }
+  
